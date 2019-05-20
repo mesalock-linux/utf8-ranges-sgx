@@ -19,7 +19,7 @@ default = ["mesalock_sgx"]
 mesalock_sgx = ["sgx_tstd"]
 
 [dependencies]
-sgx_tstd = { git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
 
 [dev-dependencies]
 quickcheck = { version = "0.7", default-features = false }
