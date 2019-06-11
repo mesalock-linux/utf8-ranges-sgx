@@ -9,7 +9,7 @@ repository = "https://github.com/BurntSushi/utf8-ranges"
 readme = "README.md"
 keywords = ["codepoint", "utf8", "automaton", "range"]
 license = "Unlicense/MIT"
-exclude = ["/ci/*", "/.travis.yml", "/Makefile", "/ctags.rust", "/session.vim"]
+exclude = ["/ci/*", "/.travis.yml", "/Makefile", "/ctags.rust", "/session.vim", "/sgx/*"]
 
 [badges]
 travis-ci = { repository = "BurntSushi/utf8-ranges" }
